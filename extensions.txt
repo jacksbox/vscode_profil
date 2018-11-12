@@ -1,0 +1,14 @@
+azemoh.one-monokai
+bengreenier.vscode-node-readme
+bierner.markdown-preview-github-styles
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+emmanuelbeziat.vscode-great-icons
+formulahendry.auto-rename-tag
+jasonnutter.search-node-modules
+leizongmin.node-module-intellisense
+mgmcdermott.vscode-language-babel
+mikestead.dotenv
+miramac.vscode-exec-node
+ms-vscode.sublime-keybindings
+wayou.vscode-todo-highlight

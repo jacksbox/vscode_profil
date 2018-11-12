@@ -1,0 +1,41 @@
+{
+
+    /* THEME */
+
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.startupEditor": "newUntitledFile",
+
+    /* EDITOR SETUP */
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 22,
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80, 120],
+    // Controls the font size in pixels.
+    "editor.fontSize": 14,
+    // Controls if the minimap is shown
+    "editor.minimap.enabled": false,
+
+    "editor.tabSize": 2,
+
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
+
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 0,
+    "window.restoreFullscreen": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "alt",
+    "search.exclude": {
+        "**/__snapshots__": true,
+        "**/.build": true,
+        "**/*.snap": true,
+        "**/*.storyshot": true,
+        "**/dist": true,
+        "**/npm-packages-offline-cache": true,
+        "**/storybook-static": true
+    },
+    "eslint.run": "onSave"
+}

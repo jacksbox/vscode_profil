@@ -1,0 +1,17 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "alt+c",          "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus" },
+    {
+        "key": "alt+c",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+cmd+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "shift+alt+cmd+n",
+        "command": "explorer.newFolder"
+    },
+]
