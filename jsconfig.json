@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6"
+  },
+  "baseUrl": ".",
+  "paths": {
+    "server/*": ["app/server/*"],
+    "shared/*": ["app/shared/*"],
+    "views/*": ["app/views/*"]
+  },
+  "exclude": [
+    ".circleci",
+    ".deployment",
+    ".docker",
+    ".loki",
+    ".summon",
+    ".vscode",
+    "app/.build",
+    "**/__tests__",
+    "coverage",
+    "dist",
+    "node_modules",
+    "npm_packages-offline-cache",
+    "sassdoc",
+    "storybook-static"
+  ]
+}

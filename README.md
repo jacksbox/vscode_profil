@@ -17,3 +17,10 @@ Install extensions:
 ```
 --install-extension <ext> //see 'code --help'
 ```
+
+### jsconfig
+
+Setup for the shop-web-client project
+
+* adjustes abosulte path (in-app resolved via special resolver module)
+* excludes all the glitter
