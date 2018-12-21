@@ -1,12 +1,24 @@
 {
   "compilerOptions": {
-    "target": "es6"
-  },
-  "baseUrl": ".",
-  "paths": {
-    "server/*": ["app/server/*"],
-    "shared/*": ["app/shared/*"],
-    "views/*": ["app/views/*"]
+    "target": "es6",
+    "baseUrl": "./",
+    "paths": {
+      "server/*": [
+        "app/server/*",
+        "app/server/*/index.js",
+        "app/server/*.js"
+      ],
+      "shared/*": [
+        "app/shared/*",
+        "app/shared/*/index.js",
+        "app/shared/*.js"
+      ],
+      "views/*": [
+        "app/views/*",
+        "app/views/*/index.js",
+        "app/views/*.js"
+      ]
+    },
   },
   "exclude": [
     ".circleci",
