@@ -1,41 +1,104 @@
 {
-
     /* THEME */
-
     "workbench.colorTheme": "One Monokai",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "newUntitledFile",
-
     /* EDITOR SETUP */
     // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-    "editor.lineHeight": 22,
+    "editor.lineHeight": 38,
     // Columns at which to show vertical rulers
-    "editor.rulers": [80, 120],
-    // Controls the font size in pixels.
-    "editor.fontSize": 14,
+    "editor.rulers": [],
     // Controls if the minimap is shown
     "editor.minimap.enabled": false,
-
     "editor.tabSize": 2,
-
+    "editor.renderLineHighlight": "all",
+    "editor.multiCursorModifier": "alt",
+    "editor.renderIndentGuides": false,
+    "editor.fontFamily": "Menlo",
+    "workbench.colorCustomizations": {
+        "[One Monokai]": {
+            // #282C35 background
+            "sideBar.background": "#282C35",
+            "tab.activeBackground": "#282C35",
+            "editor.lineHighlightBackground": "#ffffff00",
+            "editor.lineHighlightBorder": "#676E7E",
+            "editorBracketMatch.background": "#282C35",
+            "editorBracketMatch.border": "#676E7E",
+            "editorGutter.modifiedBackground": "#3DD7D4",
+            "editorGutter.addedBackground": "#3DD757",
+            "editorGutter.deletedBackground": "#FF0000"
+        }
+    },
     // When enabled, will trim trailing whitespace when saving a file.
     "files.trimTrailingWhitespace": true,
-
-
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "window.restoreFullscreen": true,
-    "editor.formatOnPaste": true,
-    "editor.multiCursorModifier": "alt",
     "search.exclude": {
         "**/__snapshots__": true,
         "**/.build": true,
+        "**/.loki": true,
         "**/*.snap": true,
         "**/*.storyshot": true,
         "**/dist": true,
         "**/npm-packages-offline-cache": true,
         "**/storybook-static": true
     },
-    "eslint.run": "onSave"
+    "eslint.run": "onSave",
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+    "files.eol": "\n",
+    "eslint.alwaysShowStatus": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "gitlens.hovers.annotations.details": false,
+    "gitlens.hovers.annotations.enabled": false,
+    "gitlens.hovers.annotations.changes": false,
+    "gitlens.hovers.currentLine.changes": false,
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.blame.heatmap.enabled": false,
+    "gitlens.blame.highlight.enabled": false,
+    "javascript.suggest.autoImports": false,
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimFinalNewlines": true,
+    "gitlens.blame.avatars": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.statusBar.alignment": "left",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.showTabs": true,
+    "editor.fontSize": 18,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "githubPullRequests.logLevel": "debug",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "breadcrumbs.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.errors.incompleteClasspath.severity": "ignore"
 }

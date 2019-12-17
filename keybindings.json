@@ -14,4 +14,24 @@
         "key": "shift+alt+cmd+n",
         "command": "explorer.newFolder"
     },
+    {
+        "key": "cmd+shift+x",
+        "command": "expand_region",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+x",
+        "command": "undo_expand_region",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "shift+cmd+x",
+        // '-' removes the binding
+        "command": "-workbench.view.extensions"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorFocus"
+    }
 ]
