@@ -1,6 +1,6 @@
 {
     /* THEME */
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "Visual Studio Light",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "newUntitledFile",
     /* EDITOR SETUP */
@@ -33,7 +33,7 @@
     "files.trimTrailingWhitespace": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "window.restoreFullscreen": true,
     "search.exclude": {
         "**/__snapshots__": true,
@@ -88,7 +88,7 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "eslint.validate": [
         "javascript",
@@ -100,5 +100,18 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "java.configuration.checkProjectSettingsExclusions": false,
-    "java.errors.incompleteClasspath.severity": "ignore"
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "python.jediEnabled": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "java.semanticHighlighting.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.languageServer": "Microsoft",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "workbench.editorAssociations": []
 }
